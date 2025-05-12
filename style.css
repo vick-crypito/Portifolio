@@ -1,5 +1,25 @@
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px; 
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&display=swap');
+
+:root {
+ 
+    --cor-principal:#808000;
+    --cor-secundaria:#8b5742;
+    --cor-destaque:#AE6938;
+}
+
+body{
+    
+    font-family:'Dramaturgo Danmark Loopet';
+}
+
+h1,h2,h5{
+    color: var(--cor-secundaria);
+font-weight: 700;
+}
+
+footer a {
+    color: var(--cor-destaque)
+}
+footer a:hover {
+    color: var(--cor-destaque)
 }
